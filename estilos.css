@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f3e5f5, #e1bee7); /* Fondo morado claro con degradado */
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta del perfil */
+.perfil {
+    background-color: #fff0ff; /* Fondo de tarjeta lila */
+    padding: 40px;
+    border-radius: 16px;
+    width: 500px;
+    box-shadow: 0 8px 20px rgba(128, 0, 128, 0.3); /* Sombra morada */
+    border: 2px solid #ce93d8; /* Borde morado claro */
+    color: #4a006f;
+}
+
+/* Título principal */
+h1 {
+    margin-top: 0;
+    color: #6a1b9a;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Subtítulo de sección */
+h2 {
+    color: #8e24aa;
+    font-size: 22px;
+    border-bottom: 2px solid #ce93d8;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Texto general y listas */
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a006f;
+}
+
+/* Lista de habilidades */
+ul {
+    padding-left: 25px;
+}
+
+/* Información personal */
+.info {
+    margin-bottom: 12px;
+}
+
+/* Etiqueta "Edad" */
+.label {
+    font-weight: bold;
+    color: #6a1b9a;
+}
